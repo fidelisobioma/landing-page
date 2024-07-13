@@ -30,11 +30,11 @@ a {
   font-size: 18px;
   color: #e5e7eb;
 }
-.container {
+.container-01 {
   display: flex;
   justify-content: center;
   align-items: center;
-  row-gap: 64px;
+  column-gap: 64px;
   margin: 64px 0;
 }
 .hero-text {
@@ -46,6 +46,7 @@ a {
   color: #f9faf8;
 }
 .hero-text p {
+  font-size: 18px;
   color: #e5e7eb;
 }
 .sign-up {
@@ -62,4 +63,39 @@ a {
   height: 300px;
   overflow: hidden;
   flex-shrink: 0;
+}
+.info {
+  padding: 8px 24px;
+}
+.container-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+.info h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+.card-container {
+  width: 200px;
+  text-align: center;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  border: 2px solid #3882f6;
+}
+.card img {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+}
+.card p {
+  color: #1f2937;
+  font-size: 18px;
 }
