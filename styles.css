@@ -3,6 +3,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: robot, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 .hero {
   background-color: #1f2937;
@@ -117,6 +119,7 @@ a {
   color: #1f2937;
 }
 .subscribe {
+  flex: 1;
   padding: 64px 24px;
   background-color: white;
   display: flex;
@@ -144,4 +147,12 @@ a {
   flex-shrink: 0;
   padding: 8px 18px;
   border-radius: 8px;
+}
+.footer {
+  background-color: #1f2937;
+}
+.footer p {
+  color: #f9faf8;
+  text-align: center;
+  padding: 24px;
 }
