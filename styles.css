@@ -63,6 +63,7 @@ a {
 .hero-image {
   width: 600px;
   height: 300px;
+  border-radius: 12px;
   overflow: hidden;
   flex-shrink: 0;
 }
