@@ -2,21 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Clean wash</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav>
-      <div class="logo">Cleanwash</div>
-      <ul>
+      <div class="mobile_navbar">
+        <div class="logo">Cleanwash</div>
+        <div>
+          <div class="open_menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <ul class="menu mobile_menu">
+        <div class="close_menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"
+            />
+          </svg>
+        </div>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+      <div class="desktop_navbar">
+        <div class="logo">Cleanwash</div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </nav>
     <main>
       <header>
+        <div class="hero-image">
+          <img src="./images/washing.jpg" alt="washing machine" width="100%" />
+        </div>
         <div class="hero-text">
           <h1>A Better Place to do Your Laundry</h1>
           <p>
@@ -26,9 +54,6 @@
             asperiores ipsum nam?
           </p>
           <button class="sign-up">Sign up</button>
-        </div>
-        <div class="hero-image">
-          <img src="./images/washing.jpg" alt="washing machine" width="100%" />
         </div>
       </header>
 
@@ -100,5 +125,6 @@
     <footer class="footer">
       <p>copyright &copy The clean wash 2024</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
