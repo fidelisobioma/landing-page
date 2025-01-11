@@ -68,15 +68,26 @@ ul svg {
 ul li {
   list-style-type: none;
 }
+
 .mobile_menu li {
   margin-top: 24px;
   margin-bottom: 24px;
   text-align: center;
 }
-a {
+ul li a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+  /* display: block; */
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: background 300ms ease-in;
+}
+ul li a:hover {
+  color: #3882f6;
+  background-color: #f9faf8;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 .desktop_navbar {
   display: none;
@@ -115,6 +126,11 @@ header {
   outline: none;
   cursor: pointer;
   font-size: 1.5rem;
+  transition: background 300ms ease-in;
+}
+.sign-up:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
 }
 .hero-image {
   /* max-width: ; */
@@ -206,6 +222,12 @@ header {
   padding: 8px 16px;
   border-radius: 8px;
   display: block;
+  transition: background 300ms ease-in;
+}
+.sub:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+  cursor: pointer;
 }
 .footer {
   background-color: #1f2937;
@@ -231,7 +253,7 @@ header {
   .desktop_navbar {
     display: flex;
     justify-content: center;
-    gap: 800px;
+    gap: 700px;
     align-items: center;
     background-color: #1f2937;
     padding: 10px;
