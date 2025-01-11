@@ -6,10 +6,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-/* .hero {
-  background-color: #1f2937;
-  padding: 8px 24px;
-} */
 .header {
   display: flex;
   justify-content: space-between;
@@ -26,7 +22,6 @@ nav .mobile_navbar {
   padding: 16px 8px;
 }
 .logo {
-  /* color: #f9faf8; */
   font-size: 24px;
   font-weight: bold;
 }
@@ -34,7 +29,6 @@ svg {
   width: 30px;
 }
 .mobile_menu {
-  /* margin: auto; */
   padding: 10px;
   width: 300px;
   position: absolute;
@@ -43,10 +37,8 @@ svg {
   text-align: center;
   justify-self: center;
   top: 50px;
-  /* left: 30px; */
   background-color: #1f2937;
   visibility: hidden;
-  /* display: none; */
   transform: translate(0, 100px);
   opacity: 0;
   transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
@@ -78,7 +70,6 @@ ul li a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
-  /* display: block; */
   border-radius: 8px;
   padding: 8px 16px;
   transition: background 300ms ease-in;
@@ -109,7 +100,6 @@ header {
 }
 .hero-text h1 {
   font-size: calc(2rem + 1vw);
-  /* font-size: 48px; */
   font-weight: bolder;
   color: #f9faf8;
 }
@@ -133,11 +123,8 @@ header {
   color: #3882f6;
 }
 .hero-image {
-  /* max-width: ; */
   height: 350px;
-  /* border-radius: 12px; */
   overflow: hidden;
-  /* flex-shrink: 0; */
 }
 .info {
   padding: 8px 24px 64px;
@@ -146,7 +133,6 @@ header {
   display: grid;
   justify-content: center;
   align-items: center;
-  /* gap: 64px; */
 }
 .info h2 {
   font-size: calc(2rem + 1vw);
@@ -155,14 +141,10 @@ header {
   text-align: center;
 }
 .card-container {
-  /* width: 200px; */
   text-align: center;
 }
 .card {
-  /* width: 200px; */
-  /* height: 200px; */
   border-radius: 8px;
-  /* border: 2px solid #3882f6; */
 }
 .card img {
   object-fit: cover;
@@ -202,7 +184,6 @@ header {
 }
 .sub-container {
   background-color: #3882f6;
-  /* padding: 8px 16px 30px; */
   padding: 8px;
   padding-bottom: 16px;
   padding-left: 30px;
@@ -218,7 +199,6 @@ header {
   color: #f9faf8;
   font-size: 1.5rem;
   margin-top: 30px;
-  /* flex-shrink: 0; */
   padding: 8px 16px;
   border-radius: 8px;
   display: block;
@@ -283,20 +263,14 @@ header {
     margin-top: 100px;
     order: 1;
   }
-  .hero-text h1 {
-    /* font-size: 48px; */
-  }
   .hero-image {
-    /* border-radius: 16px; */
     margin-top: 100px;
     order: 2;
     max-width: 600px;
     height: 300px;
-    /* object-fit: cover; */
   }
   .container-02 {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-template-columns: repeat(4, 250px);
   }
   .sub-text {
