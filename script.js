@@ -9,3 +9,8 @@ openMenu.addEventListener("click", () => {
 closeMenu.addEventListener("click", () => {
   menu.classList.remove("showmenu");
 });
+
+const myDate = document.querySelector(".date");
+const date = new Date();
+const year = date.getFullYear();
+myDate.textContent = year;
